@@ -1,0 +1,18 @@
+{
+  "name": "dotabase-api",
+  "version": "1.0.0",
+  "description": "base api dota2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matheusdev",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1"
+  }
+}
