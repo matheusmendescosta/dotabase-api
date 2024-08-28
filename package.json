@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "start": "node dist/server.js",
-    "build": "tsup src --out-dir dist"
+    "build": "tsup src --out-dir dist",
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,8 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
     "ts-node": "^10.9.2",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
